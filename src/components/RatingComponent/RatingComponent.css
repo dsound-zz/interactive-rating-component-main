@@ -24,9 +24,8 @@
 .rating-row {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 5px;
   align-self: center;
-  border: red 1px solid;
 }
 
 img {
@@ -40,4 +39,19 @@ h1 {
 
 p {
   text-align: left;
+}
+
+.submit-button {
+  background-color: var(--color-orange);
+  color: var(--color-black);
+  border-radius: 20px;
+  align-self: center;
+  width: 400px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: var(--color-white);
 }

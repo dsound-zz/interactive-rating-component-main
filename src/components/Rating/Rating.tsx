@@ -8,8 +8,12 @@ interface RatingProps {
 }
 
 const Rating = ({ index, setSelection, selection }: RatingProps) => {
+  const isSelected = selection === index
   return (
-    <div className='rating-button' onClick={() => setSelection(index)}>
+    <div
+      className={`rating-button ${isSelected ? "selected" : ""}`}
+      onClick={() => setSelection(index)}
+    >
       {index}
     </div>
   )

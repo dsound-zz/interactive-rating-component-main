@@ -5,7 +5,8 @@ import Rating from "../Rating/Rating"
 
 const RatingComponent = () => {
   const [selection, setSelection] = useState<number | null>(null)
-  console.log(selection)
+  const [submited, setSubmited] = useState<boolean>(false)
+  const handleSubmit = () => {}
   return (
     <div className='container'>
       <div className='image-background'>
@@ -26,6 +27,9 @@ const RatingComponent = () => {
           />
         ))}
       </div>
+      <button className='submit-button' onClick={handleSubmit}>
+        SUBMIT
+      </button>
     </div>
   )
 }

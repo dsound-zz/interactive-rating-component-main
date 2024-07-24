@@ -8,4 +8,19 @@
   align-items: center;
   margin: 10px 20px 0 0;
   cursor: pointer;
+  color: var(--color-white);
+}
+
+.rating-button.selected {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.rating-button:hover {
+  background-color: var(--color-orange);
+}
+
+.rating-button.selected:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
