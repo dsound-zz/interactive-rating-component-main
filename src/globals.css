@@ -1,0 +1,30 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-grey: hsl(217, 12%, 63%);
+  --color-dark-blue: hsl(213, 19%, 18%);
+  --color-very-dark-blue: hsl(216, 12%, 8%);
+  --font-family-overpass-sans: "Overpass", sans-serif;
+  --font-size-body: 16px;
+}
+
+body {
+  font-family: var(--font-family-overpass-sans);
+  font-size: var(--font-size-body);
+  color: var(--color-light-grey);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-overpass-sans);
+}
+
+p {
+  font-size: var(--font-size-body);
+}
