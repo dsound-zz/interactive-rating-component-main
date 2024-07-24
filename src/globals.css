@@ -1,5 +1,6 @@
 :root {
   --color-white: hsl(0, 0%, 100%);
+  --color-black: black;
   --color-light-grey: hsl(217, 12%, 63%);
   --color-dark-blue: hsl(213, 19%, 18%);
   --color-very-dark-blue: hsl(216, 12%, 8%);
@@ -14,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--color-black);
 }
 
 h1,
